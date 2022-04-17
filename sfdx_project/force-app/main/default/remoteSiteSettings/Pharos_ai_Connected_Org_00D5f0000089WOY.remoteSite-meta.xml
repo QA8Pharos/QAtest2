@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Pharos.ai callback URL in this org</description>
+    <description>Pharos.ai login URL for connected org qa8 (00D5f0000089WOY)</description>
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://qa9-pharos.my.salesforce.com</url>
+    <url>https://qa8-pharos-release.my.salesforce.com</url>
 </RemoteSiteSetting>
