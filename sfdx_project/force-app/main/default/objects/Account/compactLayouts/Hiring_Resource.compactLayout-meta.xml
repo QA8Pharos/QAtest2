@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hiring_Resource</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>RecordTypeId</fields>
+    <fields>NumberOfEmployees</fields>
+    <fields>Hiring_Resource_Rating__c</fields>
+    <label>Hiring Resource</label>
+</CompactLayout>

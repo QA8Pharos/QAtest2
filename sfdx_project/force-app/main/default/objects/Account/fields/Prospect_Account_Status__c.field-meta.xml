@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospect_Account_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Prospect Account Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Data Revision</fullName>
+                <default>false</default>
+                <label>Data Revision</label>
+            </value>
+            <value>
+                <fullName>Details</fullName>
+                <default>false</default>
+                <label>Details</label>
+            </value>
+            <value>
+                <fullName>Reaching Out</fullName>
+                <default>false</default>
+                <label>Reaching Out</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>RPC - Contacted</fullName>
+                <default>false</default>
+                <label>RPC - Contacted</label>
+            </value>
+            <value>
+                <fullName>Moved to opportunity</fullName>
+                <default>false</default>
+                <label>Moved to opportunity</label>
+            </value>
+            <value>
+                <fullName>Not Qualified</fullName>
+                <default>false</default>
+                <label>Not Qualified</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Maybe Later</fullName>
+                <default>false</default>
+                <label>Maybe Later</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

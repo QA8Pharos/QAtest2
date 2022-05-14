@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Efficiently_Account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>DO NOT USE/REMOVE/EDIT THIS FOR ANY REASON: THIS IS MEANT TO ID THE MAIN EFFICIENTLY ACCOUNT REGION AGNOSTICALLY. IF THIS ISN&apos;T CLEAR TO YOU, DO NOT MAKE ANY CHANGES AT ALL AND TALK TO BENJAMIN/ADMIN.</description>
+    <externalId>false</externalId>
+    <label>Efficiently Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

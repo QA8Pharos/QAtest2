@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HR_Nees__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select any Departments that the Account is having trouble with and would be interested in looking at staffing support.</inlineHelpText>
+    <label>HR Needs</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Architectural</fullName>
+                <default>false</default>
+                <label>Architectural</label>
+            </value>
+            <value>
+                <fullName>Bookkeeping</fullName>
+                <default>false</default>
+                <label>Bookkeeping</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>Purchasing and Logistics Support</fullName>
+                <default>false</default>
+                <label>Purchasing and Logistics Support</label>
+            </value>
+            <value>
+                <fullName>Cabinetry Drafting</fullName>
+                <default>false</default>
+                <label>Cabinetry Drafting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
