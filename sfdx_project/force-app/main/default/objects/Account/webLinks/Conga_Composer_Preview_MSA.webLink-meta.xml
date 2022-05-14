@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_Preview_MSA</fullName>
+    <availability>online</availability>
+    <description>Created by Conga Solution Manager. Record link: https://designschedulesales--apxtconga4.visualforce.com/a0n5Y000023vYJ9QAM.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Preview MSA</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Account.Id}
+
+&amp;TemplateId=0T_002UAA834867
+
+&amp;CongaEmailTemplateId=0E_003UAA156918
+
+&amp;CSVisible=1
+&amp;AC0=1
+&amp;AC1=Sent+MSA+to+Sign
+&amp;ACCOUNTNAME={!Account.Name}
+&amp;ACCOUNTBILLINGSTREET={!Account.BillingStreet}
+&amp;ACCOUNTBILLINGCITY={!Account.BillingCity}
+&amp;ACCOUNTBILLINGSTATE={!Account.BillingState}
+&amp;ACCOUNTBILLINGPOSTALCODEACCOUNTBILLINGPOSTALCODE={!Account.BillingPostalCode}
+&amp;FP0=1
+&amp;EmailSubject=Efficiently+-+{!Account.Name}+-+MSA
+&amp;OFN={!Account.Name}+-+MSA+-+{!Today()}
+&amp;CSRecipient1={!Account.MSA_Contact_ID__c}
+&amp;CSRecipient2={!Account.OwnerId}
+&amp;csRole1=SIGNER
+&amp;csRole2=CC
+&amp;DS2=1
+&amp;DS7=3</url>
+    <width>900</width>
+</WebLink>
