@@ -3,5 +3,5 @@
     <description>Pharos.ai callback URL in this org</description>
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>https://qa9-pharos.my.salesforce.com</url>
+    <url>https://qa8-pharos-release.my.salesforce.com</url>
 </RemoteSiteSetting>
